@@ -1,0 +1,4 @@
+# Folder and file permissions analyzer - Standalone Application Requirements
+# Core GUI Framework
+PyQt5==5.15.10
+

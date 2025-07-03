@@ -1,0 +1,11 @@
+# DNS Tester - Standalone Application Requirements
+# Core GUI Framework
+PyQt5==5.15.10
+
+# No additional dependencies required
+# DNS Tester uses built-in Python libraries:
+# - socket (for basic DNS operations)
+# - subprocess (for nslookup/dig commands)
+# - threading (for non-blocking operations)
+# - re (for text parsing)
+# - time (for delays between operations)
