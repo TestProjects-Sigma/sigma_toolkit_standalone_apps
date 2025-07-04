@@ -1,0 +1,18 @@
+# Sigma Port Listener Requirements
+# Standalone network testing tool for firewall validation and connection monitoring
+
+# Core GUI Framework
+PyQt5==5.15.10
+
+# Note: No additional dependencies required
+# The application uses only Python standard library modules for networking:
+# - socket (built-in)
+# - threading (built-in) 
+# - time (built-in)
+# - datetime (built-in)
+# - ctypes (built-in, Windows only for admin privilege checking)
+# - sys (built-in)
+
+# Optional: For building standalone executables
+# pyinstaller==5.13.2
+# auto-py-to-exe==2.40.0
