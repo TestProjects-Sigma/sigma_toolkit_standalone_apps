@@ -1,0 +1,6 @@
+# Network Toolkit Requirements
+# Core GUI Framework
+PyQt5==5.15.10
+
+# Network and HTTP requests
+requests==2.31.0
