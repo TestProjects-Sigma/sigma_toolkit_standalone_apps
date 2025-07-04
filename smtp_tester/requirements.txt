@@ -1,0 +1,38 @@
+# SMTP Tester - Python Dependencies
+# Standalone SMTP testing tool requirements
+
+# GUI Framework
+PyQt5==5.15.10
+
+# Core Python libraries (usually included with Python)
+# These are listed for completeness but typically don't need to be installed separately:
+# - smtplib (built-in)
+# - socket (built-in) 
+# - ssl (built-in)
+# - threading (built-in)
+# - time (built-in)
+# - subprocess (built-in)
+# - platform (built-in)
+# - email.mime.text (built-in)
+# - email.mime.multipart (built-in)
+# - datetime (built-in)
+# - sys (built-in)
+# - os (built-in)
+
+# Alternative PyQt5 installation options:
+# If PyQt5==5.15.10 doesn't work on your system, try:
+# PyQt5>=5.12.0
+# 
+# For older systems, you might need:
+# PyQt5==5.12.3
+
+# Development and Testing (optional)
+# pytest>=6.0.0
+# pytest-qt>=4.0.0
+
+# Notes:
+# - This application only requires PyQt5 as an external dependency
+# - All other functionality uses Python's built-in libraries
+# - PyQt5 provides the GUI framework for the application interface
+# - The SMTP functionality uses Python's standard smtplib module
+# - DNS lookups use subprocess to call system DNS tools (nslookup/dig)
