@@ -1,0 +1,85 @@
+# Mail Header Analyzer Requirements
+# A comprehensive standalone application for email header analysis and security checking
+
+# Core GUI Framework
+PyQt5==5.15.10
+
+# Email Processing and Analysis
+# Built-in Python libraries used:
+# - email (email header parsing and processing)
+# - email.utils (date parsing and address handling)
+# - re (regular expression pattern matching)
+# - json (configuration and export handling)
+
+# Network and DNS Operations
+# Built-in Python libraries used:
+# - socket (reverse DNS lookups and basic network operations)
+# - subprocess (DNS record queries via nslookup/dig)
+
+# Threading and Async Operations
+# Built-in Python libraries used:
+# - threading (non-blocking UI operations)
+# - time (timing and delay calculations)
+
+# File Operations and System Integration
+# Built-in Python libraries used:
+# - pathlib (modern path handling)
+# - os (file system operations and path management)
+# - sys (system-specific parameters and functions)
+
+# Date and Time Processing
+# Built-in Python libraries used:
+# - datetime (timestamp parsing and formatting)
+
+# Optional Dependencies for Enhanced Functionality
+# Uncomment these if you want additional features:
+
+# For advanced DNS operations (optional - provides more robust DNS querying)
+# dnspython==2.4.2
+
+# For HTTP-based reputation checking (optional - for web-based IP reputation APIs)
+# requests==2.31.0
+
+# For enhanced email file format support (optional - better .msg file handling)
+# extract-msg==0.41.1
+
+# For advanced IP address validation and manipulation (optional)
+# ipaddress (built-in for Python 3.3+)
+
+# Development and Testing Dependencies (optional)
+# pytest==7.4.3
+# pytest-qt==4.2.0
+# black==23.9.1
+# flake8==6.1.0
+
+# Platform-Specific Notes:
+# 
+# Windows:
+# - No additional requirements
+# - Uses built-in nslookup for DNS queries
+# - Full compatibility with all features
+#
+# Linux:
+# - May need to install dig: sudo apt-get install dnsutils (Ubuntu/Debian)
+# - Or: sudo yum install bind-utils (RHEL/CentOS)
+# - Some distributions include dig by default
+#
+# macOS:
+# - Uses built-in dig command
+# - No additional requirements
+# - Full compatibility with all features
+#
+# Minimum Python Version: 3.7+
+# Recommended Python Version: 3.9+
+#
+# Installation Instructions:
+# 1. Create virtual environment: python -m venv mail_analyzer_env
+# 2. Activate environment: 
+#    - Windows: mail_analyzer_env\Scripts\activate
+#    - Linux/Mac: source mail_analyzer_env/bin/activate
+# 3. Install requirements: pip install -r requirements.txt
+# 4. Run application: python mail_analyzer.py
+#
+# For development installation with optional dependencies:
+# pip install -r requirements.txt
+# pip install dnspython requests extract-msg  # Optional enhancements
