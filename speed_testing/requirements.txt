@@ -1,0 +1,45 @@
+# Standalone Speed Test Application Requirements
+# Version: 1.0
+
+# Core GUI Framework (Required)
+PyQt5>=5.15.0
+
+# Optional Speed Testing CLI (Highly Recommended)
+# Install for most accurate speed testing results
+speedtest-cli>=2.1.0
+
+# Note: The application will work without speedtest-cli using built-in fallback tests,
+# but installing speedtest-cli is highly recommended for accurate gigabit testing.
+
+# Installation Commands:
+# pip install -r requirements.txt
+# 
+# Or install individually:
+# pip install PyQt5
+# pip install speedtest-cli
+
+# Platform-specific Notes:
+#
+# Windows:
+# - PyQt5 works out of the box
+# - speedtest-cli provides Python-based testing
+# - For official Ookla CLI: download from https://www.speedtest.net/apps/cli
+#
+# Linux:
+# - May need additional packages: sudo apt-get install python3-pyqt5
+# - speedtest-cli available via package managers
+# - Official CLI: curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+#
+# macOS:
+# - PyQt5 works with pip
+# - speedtest-cli available via pip or Homebrew
+# - Official CLI: brew install speedtest-cli
+
+# Alternative CLI Installation:
+# For most accurate results, consider installing the official Speedtest CLI:
+# - Windows: Download from speedtest.net or use package managers (choco, scoop)
+# - Linux: Use distribution package managers or official repositories
+# - macOS: Use Homebrew (brew install speedtest-cli)
+
+# Minimum Python Version: 3.7+
+# Recommended Python Version: 3.8+
