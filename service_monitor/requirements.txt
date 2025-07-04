@@ -1,0 +1,27 @@
+# Service Monitor Requirements
+# Standalone infrastructure monitoring application
+# Extracted from SigmaToolkit v1.7.0
+
+# Core GUI Framework
+PyQt5==5.15.10
+
+# Network and HTTP Requests
+requests==2.31.0
+
+# Optional: Enhanced SSL/TLS support (if needed)
+# urllib3==2.0.7
+
+# Note: Standard library modules used (no additional requirements):
+# - threading (for background service checking)
+# - time (for delays and timing)
+# - socket (for network connectivity tests)
+# - subprocess (for ping tests)
+# - json (for configuration management)
+# - datetime (for timestamps)
+# - urllib.parse (for URL parsing)
+# - sys (for system operations)
+# - os (for file operations)
+
+# Development and Testing (optional)
+# pytest==7.4.3
+# pytest-qt==4.2.0
